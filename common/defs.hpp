@@ -25,10 +25,10 @@ ptr<T> make_uptr(Args&&... args) {
     return std::make_unique<T>(std::forward<Args>(args)...);
 }
 
+template <typename T>
+using vec = std::vector<T>;
 
-
-
-
+using str = std::string;
 
 #endif
 

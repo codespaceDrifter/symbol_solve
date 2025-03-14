@@ -1,3 +1,6 @@
 # ninja log v6
-1	242	7634664134790165	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/main.cpp.obj	b0c76eaf3e566d9f
+4	1628	7636317599850029	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/main.cpp.obj	126567b339772414
 244	394	7634664137218818	bin/main.exe	79e80fdcb79c3aea
+6	148	7636319091297509	bin/main.exe	8dfbee14756cc56e
+4	245	7636320350310876	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/main.cpp.obj	126567b339772414
+245	392	7636320352724732	bin/main.exe	8dfbee14756cc56e
