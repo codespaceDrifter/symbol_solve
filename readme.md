@@ -6,3 +6,9 @@ the python binding uses this with my datagen python library to generate syntheti
 
 dependencies in libs folder: 
 raylib
+
+# to do
+THIS IS PART OF THE FINAL REVIEW! PHYSICS AND LINEAR ALGEBRA AT LEAST.  
+Abstract Syntax Tree Parser (expression class, tree, parenthesis)  
+Physics (everything this quater)  
+Linear Algebra (everything this quater)  

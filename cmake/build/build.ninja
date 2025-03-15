@@ -56,6 +56,20 @@ build CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/mai
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_core
 
+build CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/visualization/camera.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/silly/Desktop/coding_projects/symbol_core/visualization/camera.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_core\visualization\camera.cpp.obj.d
+  FLAGS = -g -g -std=gnu++17
+  INCLUDES = -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../math/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../physics/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../parser/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../visualization/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../common/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../test/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../libs
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_core\visualization
+
+build CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/visualization/visualizer.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/silly/Desktop/coding_projects/symbol_core/visualization/visualizer.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_core\visualization\visualizer.cpp.obj.d
+  FLAGS = -g -g -std=gnu++17
+  INCLUDES = -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../math/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../physics/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../parser/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../visualization/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../common/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../test/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../libs
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_core\visualization
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target main
@@ -64,7 +78,7 @@ build CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/mai
 #############################################
 # Link the executable bin\main.exe
 
-build bin/main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/main.cpp.obj | C$:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../libs/libraylib.a
+build bin/main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/main.cpp.obj CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/visualization/camera.cpp.obj CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/visualization/visualizer.cpp.obj | C$:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../libs/libraylib.a
   FLAGS = -g -g
   LINK_LIBRARIES = C:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../libs/libraylib.a  -lopengl32  -lgdi32  -lwinmm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\main.dir

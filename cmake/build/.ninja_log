@@ -1,6 +1,7 @@
 # ninja log v6
-4	1628	7636317599850029	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/main.cpp.obj	126567b339772414
-244	394	7634664137218818	bin/main.exe	79e80fdcb79c3aea
-6	148	7636319091297509	bin/main.exe	8dfbee14756cc56e
 4	245	7636320350310876	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/main.cpp.obj	126567b339772414
 245	392	7636320352724732	bin/main.exe	8dfbee14756cc56e
+14	308	7636336174933817	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/visualization/visualizer.cpp.obj	e62b8f063721815
+9	556	7636336174884193	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/visualization/camera.cpp.obj	ab8085d23365ae69
+6	256	7636337063167602	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/main.cpp.obj	126567b339772414
+256	422	7636337065677549	bin/main.exe	e12264caf5fc07bd
