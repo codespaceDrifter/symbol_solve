@@ -1,3 +1,3 @@
-C:/Users/silly/Desktop/coding_projects/symbol_core/cmake/build/CMakeFiles/main.dir
-C:/Users/silly/Desktop/coding_projects/symbol_core/cmake/build/CMakeFiles/edit_cache.dir
-C:/Users/silly/Desktop/coding_projects/symbol_core/cmake/build/CMakeFiles/rebuild_cache.dir
+C:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/build/CMakeFiles/main.dir
+C:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/build/CMakeFiles/edit_cache.dir
+C:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/build/CMakeFiles/rebuild_cache.dir

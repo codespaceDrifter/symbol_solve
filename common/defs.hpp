@@ -5,7 +5,7 @@
 #include <cstdio>
 #include <string>
 #include <vector>
-
+#include <iostream>
 template<typename T>
 using ptr = std::shared_ptr<T>;
 
@@ -28,7 +28,10 @@ ptr<T> make_uptr(Args&&... args) {
 template <typename T>
 using vec = std::vector<T>;
 
-using str = std::string;
+using string = std::string;
+
+using std::cout;
+using std::endl;
 
 #endif
 

@@ -1,7 +1,15 @@
 # ninja log v6
-4	245	7636320350310876	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/main.cpp.obj	126567b339772414
-245	392	7636320352724732	bin/main.exe	8dfbee14756cc56e
-14	308	7636336174933817	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/visualization/visualizer.cpp.obj	e62b8f063721815
-9	556	7636336174884193	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/visualization/camera.cpp.obj	ab8085d23365ae69
-6	256	7636337063167602	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/main.cpp.obj	126567b339772414
-256	422	7636337065677549	bin/main.exe	e12264caf5fc07bd
+26	3554	7654714513869338	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/visualizer.cpp.obj	62359aa44401dcb3
+21	701	7654735637212753	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/visualization.cpp.obj	1d677f2b810c8c2
+13	3934	7654714513739813	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/camera.cpp.obj	82d3ec3ad8d957c
+9	773	7654735637102717	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/camera.cpp.obj	38d31f7b3be3a686
+607	788	7654725874404555	bin/main.exe	83090078753bcaa1
+1	214	7654742789772142	build.ninja	38de4849a20e4710
+6	459	7654724799461869	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/main.cpp.obj	7b850195bf36ae35
+10	2044	7654714513709791	CMakeFiles/main.dir/CMakeFiles/3.30.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj	a8eebc78034ca789
+13	744	7654735637132717	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/control.cpp.obj	1c8904c10b58363
+12	602	7654741936136415	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/visualizer.cpp.obj	d9817a0989bd126a
+9	708	7654741936096596	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/update.cpp.obj	8ce88e482ada3014
+15	600	7654742803413896	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/visualizer.cpp.obj	d9817a0989bd126a
+5	493	7654743570549780	CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/main.cpp.obj	68d1c30cbfd51f21
+494	679	7654743575442288	bin/main.exe	83090078753bcaa1

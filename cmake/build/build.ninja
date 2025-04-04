@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: symbol_core
+# Project: symbol_solve
 # Configurations: Debug
 # =============================================================================
 
@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/silly/Desktop/coding_projects/symbol_core/cmake/build/
+cmake_ninja_workdir = C$:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/build/
 # =============================================================================
 # Object build statements for EXECUTABLE target main
 
@@ -49,26 +49,40 @@ cmake_ninja_workdir = C$:/Users/silly/Desktop/coding_projects/symbol_core/cmake/
 
 build cmake_object_order_depends_target_main: phony || .
 
-build CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/silly/Desktop/coding_projects/symbol_core/main.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_core\main.cpp.obj.d
+build CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/silly/Desktop/coding_projects/symbol_solve/main.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_solve\main.cpp.obj.d
   FLAGS = -g -g -std=gnu++17
-  INCLUDES = -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../math/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../physics/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../parser/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../visualization/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../common/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../test/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../libs
+  INCLUDES = -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../common -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../parser/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../visualization/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../libs -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../math/linear_algebra/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../physics/common/inc
   OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_core
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_solve
 
-build CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/visualization/camera.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/silly/Desktop/coding_projects/symbol_core/visualization/camera.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_core\visualization\camera.cpp.obj.d
+build CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/camera.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/camera.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_solve\visualization\src\camera.cpp.obj.d
   FLAGS = -g -g -std=gnu++17
-  INCLUDES = -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../math/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../physics/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../parser/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../visualization/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../common/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../test/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../libs
+  INCLUDES = -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../common -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../parser/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../visualization/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../libs -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../math/linear_algebra/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../physics/common/inc
   OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_core\visualization
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_solve\visualization\src
 
-build CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/visualization/visualizer.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/silly/Desktop/coding_projects/symbol_core/visualization/visualizer.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_core\visualization\visualizer.cpp.obj.d
+build CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/control.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/control.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_solve\visualization\src\control.cpp.obj.d
   FLAGS = -g -g -std=gnu++17
-  INCLUDES = -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../math/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../physics/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../parser/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../visualization/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../common/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../test/inc -IC:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../libs
+  INCLUDES = -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../common -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../parser/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../visualization/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../libs -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../math/linear_algebra/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../physics/common/inc
   OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_core\visualization
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_solve\visualization\src
+
+build CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/visualization.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/visualization.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_solve\visualization\src\visualization.cpp.obj.d
+  FLAGS = -g -g -std=gnu++17
+  INCLUDES = -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../common -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../parser/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../visualization/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../libs -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../math/linear_algebra/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../physics/common/inc
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_solve\visualization\src
+
+build CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/visualizer.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/visualizer.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_solve\visualization\src\visualizer.cpp.obj.d
+  FLAGS = -g -g -std=gnu++17
+  INCLUDES = -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../common -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../parser/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../visualization/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../libs -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../math/linear_algebra/inc -IC:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../physics/common/inc
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\C_\Users\silly\Desktop\coding_projects\symbol_solve\visualization\src
 
 
 # =============================================================================
@@ -78,9 +92,9 @@ build CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/vis
 #############################################
 # Link the executable bin\main.exe
 
-build bin/main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/main.cpp.obj CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/visualization/camera.cpp.obj CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_core/visualization/visualizer.cpp.obj | C$:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../libs/libraylib.a
+build bin/main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/main.cpp.obj CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/camera.cpp.obj CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/control.cpp.obj CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/visualization.cpp.obj CMakeFiles/main.dir/C_/Users/silly/Desktop/coding_projects/symbol_solve/visualization/src/visualizer.cpp.obj | C$:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../libs/libraylib.a
   FLAGS = -g -g
-  LINK_LIBRARIES = C:/Users/silly/Desktop/coding_projects/symbol_core/cmake/../libs/libraylib.a  -lopengl32  -lgdi32  -lwinmm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = C:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/../libs/libraylib.a  -lopengl32  -lgdi32  -lwinmm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -93,7 +107,7 @@ build bin/main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/C_/Use
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\silly\Desktop\coding_projects\symbol_core\cmake\build && C:\dev\CMake\bin\cmake-gui.exe -SC:\Users\silly\Desktop\coding_projects\symbol_core\cmake -BC:\Users\silly\Desktop\coding_projects\symbol_core\cmake\build"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\silly\Desktop\coding_projects\symbol_solve\cmake\build && C:\dev\CMake\bin\cmake-gui.exe -SC:\Users\silly\Desktop\coding_projects\symbol_solve\cmake -BC:\Users\silly\Desktop\coding_projects\symbol_solve\cmake\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -105,7 +119,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\silly\Desktop\coding_projects\symbol_core\cmake\build && C:\dev\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\silly\Desktop\coding_projects\symbol_core\cmake -BC:\Users\silly\Desktop\coding_projects\symbol_core\cmake\build"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\silly\Desktop\coding_projects\symbol_solve\cmake\build && C:\dev\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\silly\Desktop\coding_projects\symbol_solve\cmake -BC:\Users\silly\Desktop\coding_projects\symbol_solve\cmake\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -125,7 +139,7 @@ build main.exe: phony bin/main.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/silly/Desktop/coding_projects/symbol_core/cmake/build
+# Folder: C:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/build
 
 build all: phony bin/main.exe
 
@@ -136,14 +150,14 @@ build all: phony bin/main.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/silly/Desktop/coding_projects/symbol_core/cmake/CMakeLists.txt C$:/dev/CMake/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.0/CMakeCCompiler.cmake CMakeFiles/3.30.0/CMakeCXXCompiler.cmake CMakeFiles/3.30.0/CMakeRCCompiler.cmake CMakeFiles/3.30.0/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/CMakeLists.txt C$:/dev/CMake/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.0/CMakeCCompiler.cmake CMakeFiles/3.30.0/CMakeCXXCompiler.cmake CMakeFiles/3.30.0/CMakeRCCompiler.cmake CMakeFiles/3.30.0/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/silly/Desktop/coding_projects/symbol_core/cmake/CMakeLists.txt C$:/dev/CMake/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.0/CMakeCCompiler.cmake CMakeFiles/3.30.0/CMakeCXXCompiler.cmake CMakeFiles/3.30.0/CMakeRCCompiler.cmake CMakeFiles/3.30.0/CMakeSystem.cmake: phony
+build C$:/Users/silly/Desktop/coding_projects/symbol_solve/cmake/CMakeLists.txt C$:/dev/CMake/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/dev/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/dev/CMake/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.0/CMakeCCompiler.cmake CMakeFiles/3.30.0/CMakeCXXCompiler.cmake CMakeFiles/3.30.0/CMakeRCCompiler.cmake CMakeFiles/3.30.0/CMakeSystem.cmake: phony
 
 
 #############################################
